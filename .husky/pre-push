@@ -1,0 +1,6 @@
+echo "Running pre-push hook"
+
+npm run test:e2e:ci
+
+echo "pre-push hook finished"
+
