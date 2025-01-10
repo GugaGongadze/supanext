@@ -35,7 +35,7 @@ export default function ConnectSupabaseSteps() {
             className="font-bold hover:underline text-foreground/80"
             rel="noreferrer"
           >
-            your Supabase project's API Settings
+            your Supabase project&apos;s API Settings
           </a>
           .
         </p>
@@ -53,8 +53,8 @@ export default function ConnectSupabaseSteps() {
 
       <TutorialStep title="Refresh the page">
         <p>
-          You may need to refresh the page for Next.js to load the new
-          environment variables.
+          You may need to refresh the page for Next.js to load the new environment
+          variables.
         </p>
       </TutorialStep>
     </ol>

@@ -28,7 +28,7 @@ export function CreateProductForm() {
     const userId = userResponse.data.user?.id;
 
     // 3. Create product in supabase
-    const { data, error } = await supabase
+    await supabase
       .from("products")
       .insert({
         name,
