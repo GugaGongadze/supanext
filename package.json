@@ -9,7 +9,8 @@
     "test:unit": "vitest",
     "test": "npm run test:unit && npm run test:e2e:ci",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "converage": "vitest --coverage"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.1.1",
